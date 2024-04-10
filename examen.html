@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Formulario</h1>
+    </header>
+    
+    <section class="" id="">
+        <div class="" id="">
+            <form method="get">
+                <fieldset>
+                    <legend>
+                        Datos Personales
+                    </legend>
+                    <div style="background-color: aqua;">
+                        <label for="nombre">Ingrese el nombre del estudiante:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ingrese el nombre" required="true"><br>
+                    </div>
+                    <div>
+                        <label for="apellido">Ingrese el apellido del estudiante:</label>
+                        <input type="text" name="apellido" id="apellido" placeholder="Escriba su apellido" required="true"><br>
+                    </div>
+                    <div>
+                        <label for="email"> Ingrese el email</label>
+                        <input type="email" name="email" id="email" placeholder="Ingrese el email" required="true"><br>
+                    </div>
+                    <div>
+                        <label for="edad">Inrgese la edad del estudiante</label>
+                        <input type="number" name="edad" id="edad" placeholder="Ingrese su edad" required="true">
+                    </div>
+                    <div>
+                        <label>Género</label>
+                        <input type="radio" name="generos" id="femenino" value="femenino">
+                        <label for="femenino">Femenino</label>
+                        <input type="radio" name="generos" id="masculino" value="masculino">
+                        <label for="masculino">Masculino</label><br>
+                    </div>
+                    <div>
+                        <label for="musica">Seleccione su música favorita</label>
+                        <input type="radio" name="bachata" id="bachata" value="bachata">
+                        <label for="bachata">Bachata</label>
+                        <input type="radio" name="merengue" id="merengue" value="merengue">
+                        <label for="merengue">Merengue</label>
+                        <input type="radio" name="rock" id="rock" value="rock">
+                        <label for="rock">Rock</label>
+                        <input type="radio" name="trap" id="trap" value="trap"><br>
+                        <label for="trap">Trap</label>
+                    </div>
+                    <div>
+                        <label>Lenguaje de programación</label>
+                        <input type="checkbox" name="programación" id="java" value="java">
+                        <label for="java">Java</label><br>
+                        <input type="checkbox" name="programación" id="python" value="python">
+                        <label for="python">Python</label>
+                    </div>
+                    <div>
+                        <label for="autos">Marca de autos favorita</label><br>
+                        <select name="autos" id="autos">
+                            <option value="chevrolet">Chevrolet</option>
+                            <option value="ferrari">Ferrari</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="comentario">Ingrese un comentario</label><br>
+                        <textarea name="comentario" id="comentario" cols="30" rows="10">Este es mi comentario</textarea><br>
+                    </div>
+                    <div>
+                        <label for="password">Ingrese la contraseña:</label>
+                        <input type="password" name="password" id="password" required="true" placeholder="Ingrese el password">
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                        <input type="submit" formnovalidate="formnovalidate" value="Enviar datos sin validar">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Desarrollado por Franco Cachago &copy;Todos los derechos reservados</p>
+    </footer>
+    
+</body>
+</html>
